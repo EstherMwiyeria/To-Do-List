@@ -3,119 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
-    <title>ToDoList</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <h1>To - Do List</h1>
+  <h1>To - Do - List</h1>
+  <div class="card">
+  <div class="ui">
     <h2>Top Priorities</h2>
-    <div class="section1">
-    <div>
-    
+   
   
-    <ul id="topPriorities">
-      <li>
-        <input type="checkbox" id="activity1">
-        <label for="activity1">Update and polish your resume.</label>
-        <button class="delete-button">Delete</button>
-        <!-- <button class="add-Task">Add Task</button> -->
-      </li>
-      <li>
-        <input type="checkbox" id="activity2">
-        <label for="activity2">Be physically active & exercise regularly.</label>
-        <button class="delete-button">Delete</button>
-        <!-- <button class="add-Task">Add Task</button> -->
-      </li>
-      <li>
-        <input type="checkbox" id="activity3">
-        <label for="activity3">Read books related to your field of study.</label>
-        <button class="delete-button">Delete</button>
-        <!-- <button class="add-Task">Add Task</button> -->
-      </li>
-    </ul>
-</div>
+
+  </div>
+  <div class="sect">
 <div>
+  <ul id="topPriorities">
+    <li>
+      <input type="checkbox" id="activity1">
+      <label for="activity1">Update and polish your resume.</label>
   
-    <!-- <h2>Other Activities</h2> -->
-    <ul id="otherActivities">
-      <li>
-        <input type="checkbox" id="activity4">
-        <label for="activity4">Create the design Mock Ups</label>
-        <button class="delete-button">Delete</button>
-      </li>
-      <li>
-        <input type="checkbox" id="activity5">
-        <label for="activity5">Work on Django in Python Class</label>
-        <button class="delete-button">Delete</button>
+      
+     </li>
+    <li>
+      <input type="checkbox" id="activity2">
+      <label for="activity2">Be physically active & exercise regularly.</label>
+
+     </li>
+    <li>
+      <input type="checkbox" id="activity3">
+      <label for="activity3">Read books related to your field of study.</label>
+
+      
+     </li>
+  </ul>
+</div>
+<div> 
+
+   <ul id="otherActivities">
+    <li>
+      <input type="checkbox" id="activity4">
+      <label for="activity4">Create the design Mock Ups</label>
+     
+    </li>
+    <li>
+      <input type="checkbox" id="activity5">
+      <label for="activity5">Work on Django in Python Class</label>
     
-      </li>
-      <li>
-        <input type="checkbox" id="activity6">
-        <label for="activity6">Clean & organized your space.</label>
-        <button class="delete-button">Delete</button>
-      </li>
-    </ul>
-</div>
-</div>
-    <h2>Additional To - Do List</h2>
-  <ul id="userId1">
-    <li>
-      <input type="checkbox" id="item1">
-      <label for="Research ">Item 1</label>
     </li>
     <li>
-      <input type="checkbox" id="item2">
-      <label for="item2">Item 2</label>
-    </li>
-    <li>
-      <input type="checkbox" id="item3">
-      <label for="item3">Item 3</label>
-    </li>
-    <li>
-      <input type="checkbox" id="item4">
-      <label for="item4">Item 4</label>
-    </li>
-    <li>
-      <input type="checkbox" id="item5">
-      <label for="item5">Item 5</label>
-    </li>
-    <li>
-      <input type="checkbox" id="item6">
-      <label for="item6">Item 6</label>
+      <input type="checkbox" id="activity6">
+      <label for="activity6">Clean & organized your space.</label>
+   
     </li>
   </ul>
-  <div class="btn">
-    <button>Add new tasks</button>
-    <button>Delete All Tasks</button>
-  </div>
+</div>
+</div>
+</div>
+</div>
 
+
+
+
+  <div class="greeting">
+   
+   
+    <h2><b>Additional To-Do-List</b></h2>
+  </div>
+    <div id="container">
+      <form id="addForm">
+    <input type="text" id="taskInput" placeholder="Enter a new task" required>
+    <button type="submit">Add Task</button>
+  </form>
+    </div>
+  </div>
   <h2>Notes</h2>
   <textarea id="notes" rows="4" cols="50" placeholder="Add your notes here..."></textarea>
-  <script src="index.js"></script> 
+      <script src="/index.js"></script>
 </body>
-</html> 
-     <!-- <h1>To-Do List</h1>
-  
-  <h2>Top Priorities</h2>
-  <ul id="priorities">
-    <li class="task priority">Finish project proposal</li>
-    <li class="task priority">Call client for follow-up</li>
-    <li class="task priority">Prepare presentation slides</li>
-  </ul>
-  
-  <h2>To-Do</h2>
-  <ul id="todo">
-    <li class="task">Buy groceries</li>
-    <li class="task">Send email to team members</li>
-    <li class="task">Schedule meeting with manager</li>
-  </ul>
-  
-  <h2>Notes</h2>
-  <textarea id="notes" rows="4" cols="50"></textarea>
-  <div class="done">
-    <div id="todo-item">
-
-    </div>
-  </div> -->
+</html>  
 
